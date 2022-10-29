@@ -1,95 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="CSS/styles.css" /> -->
     <title>Personas</title>
   </head>
   <body>
-    <div class="top container-fluid p-4">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html"
-          ><img
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container-fluid">
+        <a
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+          "
+          class="navbar-brand"
+          href="index.html"
+        >
+          <img
             src="/Images/icon.png"
             class="rounded"
             alt="SNOTES"
             height="40px"
             width="40px"
-          />SNOTES</a
+          />NOTAMATIC</a
         >
 
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Goal</a
+              <a class="nav-link" href="index.html"
+                >GOAL
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="personas.html">PERSONAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sketches.html">SKETCHES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="critique.html">CRITIQUE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="technologies.html"
+                >TECHNOLOGIES AND FRAMEWORKS</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="personas.html">Personas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sketches.html">Sketches</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="critique.html">Critique</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="technologies.html">Technologies</a>
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
-    <h1 class="container h1">PERSONAS</h1>
-    <div id="accordion" class="p-4">
-      <div class="card">
-        <div class="card-header">
-          <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+      </div>
+    </nav>
+
+    <h3 class="text-center">PERSONAS</h3>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button bg-secondary text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
             Peter Scott
-          </a>
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <br />
+          <img
+            src="/Images/User.jpg"
+            alt="User"
+            width="150px"
+            height="150px"
+            class="img-fluid"
+          />
+
+          <ul>
+            <li>Name: Peter Scott</li>
+            <li>Age: 19</li>
+            <li>Gender: Male</li>
+            <li>Occupation: Level 4 Student</li>
+            <li>Email: peterscott@gmail.com</li>
+          </ul>
+
+          <p>
+            Peter is a new student to university and finds it overwhelming to
+            keep track of notes and folders, furthermore, he wants to record and
+            capture images during the lecture so he can go back home and review
+            them.
+          </p>
+          <ul>
+            <li>Peter opens the snotes app and proceeds to take notes</li>
+            <li>
+              The timetable in the app is linked to the notes in a way that
+              depending on the time of day the notes automatically go into the
+              respective subject folder.
+            </li>
+            <li>
+              He can later take a picture before the professor moves on to the
+              next topic so he doesn't miss out on it
+            </li>
+            <li>
+              He can also set reminders for upcoming quizes or tests related to
+              the subject.
+            </li>
+          </ul>
         </div>
-        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            <div class="container-fluid p-4">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button bg-secondary text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="true"
+                aria-controls="collapseTwo"
+              >
+                Jessica Matthew
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <br />
               <img
-                src="/Images/User.jpg"
+                src="/Images/User2.jpg"
                 alt="User"
                 width="150px"
                 height="150px"
                 class="img-fluid"
               />
-              <span>
-                <ul>
-                  <li>Name: Peter Scott</li>
-                  <li>Age: 19</li>
-                  <li>Gender: Male</li>
-                  <li>Occupation: Level 4 Student</li>
-                  <li>Email: peterscott@gmail.com</li>
-                </ul>
-              </span>
-              <p class="container-fluid p-4">
-                Peter is a new student to university and finds it overwhelming
-                to keep track of notes and folders, furthermore, he wants to
-                record and capture images during the lecture so he can go back
-                home and review them.
+
+              <ul>
+                <li>Name: Jessica Matthew</li>
+                <li>Age: 34</li>
+                <li>Gender: Female</li>
+                <li>Occupation: Teacher</li>
+                <li>Email:jessicamatthew@gmail.com</li>
+              </ul>
+
+              <p>
+                Jessica Matthew is a networking course teacher who wants an app
+                that is strictly for notes and course related discussion.
+                Moreover, setting quiz reminders is something she requires on
+                the go.
               </p>
               <ul>
                 <li>Peter opens the snotes app and proceeds to take notes</li>
