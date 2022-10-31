@@ -3,157 +3,207 @@
   <head>
     <link rel="stylesheet" href="/CSS/bootstrap.css" />
     <title>Critique</title>
+    <link rel="icon" href="/Images/icon.ico" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-      <div class="container-fluid">
-        <a
+    <div class="container-fluid p-2">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+          <a
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-style: italic;
+            "
+            class="navbar-brand"
+            href="index.html"
+          >
+            <img
+              src="/Images/icon.png"
+              class="rounded"
+              alt="SNOTES"
+              height="40px"
+              width="40px"
+            />NOTAMATIC</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  >GOAL
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="personas.html">PERSONAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sketches.html">SKETCHES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="critique.html">CRITIQUE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="technologies.html"
+                  >TECHNOLOGIES AND FRAMEWORKS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container-fluid text-white opacity-100 d-flex justify-content-center align-items-center"
+        style="background-image: url(/Images/bg4.jpg); height: 30vh"
+      >
+        <h3
+          class="text-center text-dark display-4"
           style="
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
               'Lucida Sans', Arial, sans-serif;
             font-style: italic;
           "
-          class="navbar-brand"
-          href="index.html"
         >
-          <img
-            src="/Images/icon.png"
-            class="rounded"
-            alt="SNOTES"
-            height="40px"
-            width="40px"
-          />NOTAMATIC</a
-        >
+          CRITIQUE
+        </h3>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button bg-secondary text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              Evernote
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <br />
+            <img
+              src="/Images/Evernote.jpg"
+              alt="User"
+              width="200px"
+              height="200px"
+              class="img-fluid"
+            />
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarColor01"
-          aria-controls="navbarColor01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >GOAL
-                <span class="visually-hidden">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="personas.html">PERSONAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sketches.html">SKETCHES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="critique.html">CRITIQUE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="technologies.html"
-                >TECHNOLOGIES AND FRAMEWORKS</a
-              >
-            </li>
-          </ul>
+            <h6>Pros</h6>
+            <ul>
+              <li>
+                Ability to sync between devices and the notes can be accessed
+                from anywhere.
+              </li>
+              <li>
+                There are a lot of formatting options alongwith the ability to
+                record audio as well.
+              </li>
+              <li>
+                Teams can collaborate and share things like notes, reports,
+                agendas, etc.
+              </li>
+            </ul>
+            <h6>Cons</h6>
+            <ul>
+              <li>
+                Not suitable for short or brief notes and only reasonable for
+                long detailed notes with more complex tasks.
+              </li>
+              <li>
+                The features in the free version of the app are limited and the
+                user needs to purchase the business plan for full functionality.
+              </li>
+              <li>
+                Not geared towards note taking for students and provides a very
+                sophisticated UI.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <h3 class="text-center">CRITIQUE</h3>
-    <div class="accordion p-2" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button
-            class="accordion-button bg-secondary text-white"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapseOne"
-            aria-expanded="true"
-            aria-controls="collapseOne"
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button bg-secondary text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              Notion
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
           >
-            Evernote
-          </button>
-        </h2>
-        <div
-          id="collapseOne"
-          class="accordion-collapse collapse show"
-          aria-labelledby="headingOne"
-          data-bs-parent="#accordionExample"
-        >
-          <br />
-          <img
-            src="/Images/Evernote.jpg"
-            alt="User"
-            width="200px"
-            height="200px"
-            class="img-fluid"
-          />
-
-          <h6>Pros</h6>
-          <ul>
-            <li>
-              Ability to sync between devices and the notes can be accessed from
-              anywhere.
-            </li>
-            <li>
-              There are a lot of formatting options alongwith the ability to
-              record audio as well.
-            </li>
-            <li>
-              Teams can collaborate and share things like notes, reports,
-              agendas, etc.
-            </li>
-          </ul>
-          <h6>Cons</h6>
-          <ul>
-            <li>
-              Not suitable for short or brief notes and only reasonable for long
-              detailed notes with more complex tasks.
-            </li>
-            <li>
-              The features in the free version of the app are limited and the
-              user needs to purchase the business plan for full functionality.
-            </li>
-            <li>
-              Not geared towards note taking for students and provides a very
-              sophisticated UI.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="accordion p-2" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button
-            class="accordion-button bg-secondary text-white"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo"
-            aria-expanded="true"
-            aria-controls="collapseTwo"
-          >
-            Notion
-          </button>
-        </h2>
-        <div
-          id="collapseTwo"
-          class="accordion-collapse collapse show"
-          aria-labelledby="headingTwo"
-          data-bs-parent="#accordionExample"
-        >
-          <br />
-          <img
-            src="/Images/Notion.jpg"
-            alt="User"
-            width="200px"
-            height="200px"
-            class="img-fluid"
-          />
+            <br />
+            <img
+              src="/Images/Notion.jpg"
+              alt="User"
+              width="200px"
+              height="200px"
+              class="img-fluid"
+            />
+            <h6>Pros</h6>
+            <ul>
+              <li>
+                Notion focuses mainly on project and task management and it does
+                this very well with features, users can place the task list,
+                project documents, file attachments, and schedules in an
+                organized layout.
+              </li>
+              <li>
+                It is cross compatible so users can access thier notes from
+                anywhere they log in from.
+              </li>
+              <li>
+                There are custom made templates by the community to use which
+                speed up the process of organizing, managing, and tracking
+                tasks. Moreover, there are other templates for project roadmaps
+                too.
+              </li>
+            </ul>
+            <h6>Cons</h6>
+            <ul>
+              <li>
+                New users may find it tricky and time-consuming to navigate
+                through the app.
+              </li>
+              <li>
+                Editing and formatting is not that intuitive, therefore, basic
+                formatting can be a lengthy and frustrating process.
+              </li>
+              <li>
+                Setting up the app for collaboration and task management
+                requires time and is a time-consuming process.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
