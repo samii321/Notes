@@ -1,0 +1,18 @@
+.ul1 {
+  list-style-image: url(../Images/html.png);
+}
+.ul2 {
+  list-style-image: url(../Images/css.png);
+}
+.ul3 {
+  list-style-image: url(../Images/js.png);
+}
+.ul4 {
+  list-style-image: url(../Images/bs.png);
+}
+.ul5 {
+  list-style-image: url(../Images/laravel.png);
+}
+.ul6 {
+  list-style-image: url(../Images/mysql.png);
+}
