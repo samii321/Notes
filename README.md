@@ -1,5 +1,4 @@
-# Notes
-Notamatic
+# NOTAMATIC
 University of Hertfordshire
 School of Computer Science
 BSc Computer Science
